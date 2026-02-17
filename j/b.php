@@ -40,7 +40,7 @@ if(isset($_POST['Submit'])) {
 	$sql2 = "INSERT INTO `provinces` VALUES (NULL, '{$pname}', '{$ext}' , '{$rid}' )";
 	mysqli_query($conn, $sql2) or die ("insert ไม่ได้");
 	$pic_id = mysqli_insert_id($conn);
-	move_uploaded_file($_FILES['pimage']['tmp_name'],"img/".$pic_id.".".$ext);
+	copy($_FILES['pimage']['tmp_name'],"img/".$pic_id.".".$ext);
 	}
 ?>
 
@@ -74,3 +74,4 @@ if(isset($_POST['Submit'])) {
 </body>
 
 </html>
+
