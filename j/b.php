@@ -11,7 +11,7 @@
 <h1>ข้อมูลจังหวัด --- เมธาวาลัย พรมน้อย (มายด์)</h1>
     
 <form method="post" action="" enctype="multipart/form-data">
-	ชื่อจังหวัด <input type="text" name="rname" autofocus required> <br>
+	ชื่อจังหวัด <input type="text" name="pname" autofocus required> <br>
     รูปภาพ <input type="file" name="pimage"> <br>
     ชื่อภาค
     <select name="rid">
@@ -72,4 +72,5 @@ if(isset($_POST['Submit'])) {
 <?php } ?>
 </table>
 </body>
+
 </html>
