@@ -7,7 +7,7 @@
 
 <body>
 
-<h1>งาน i</h1>
+<h1>งาน j</h1>
 <h1>ข้อมูลจังหวัด --- เมธาวาลัย พรมน้อย (มายด์)</h1>
     
 <form method="post" action="" enctype="multipart/form-data">
@@ -73,3 +73,4 @@ if(isset($_POST['Submit'])) {
 </table>
 </body>
 </html>
+
