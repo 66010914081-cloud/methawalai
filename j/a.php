@@ -7,7 +7,7 @@
 
 <body>
 
-<h1>งาน i</h1>
+<h1>งาน j</h1>
 <h1>ข้อมูลภาค -- เมธาวาลัย พรมน้อย (มายด์)</h1>
 
 <form method="post" action="">
@@ -49,4 +49,5 @@ if(isset($_POST['Submit'])) {
 <?php } ?>
 </table>
 </body>
+
 </html>
